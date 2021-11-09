@@ -1,0 +1,23 @@
+-cp src
+-D analyzer-optimize
+-main Main
+-lib jsasync
+--library level
+--library levelup
+--library hxnodejs
+--library random
+-D js-es=6
+--js bin/main.js
+-D dce=full
+--debug
+# --each
+# --hl bin/main.hl
+# --next
+
+# -D js-es=6
+# --library hxnodejs
+# --js bin/main.js
+
+# --next
+# -D dce=full
+# --python bin/main.py

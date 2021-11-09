@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/level": "^6.0.0",
+    "level": "^7.0.1"
+  },
+  "devDependencies": {
+    "dts2hx": "^0.16.1"
+  }
+}
